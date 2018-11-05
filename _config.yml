@@ -20,7 +20,7 @@ footer:
 author: '张宇明'
 nickname: '老张'
 bio: 'web渗透，web漏洞挖掘，古典吉他'
-avatar: '/img/1.jpg'
+avatar: '/assets/img/1.jpg'
 
 # Search
 search: true
