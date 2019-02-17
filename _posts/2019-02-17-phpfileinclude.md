@@ -18,12 +18,12 @@ tags: web漏洞 文件包含
 > require()
 
 在包含的过程中如果遇到错误，比如文件不存在等，则会直接退出，不执行后续语句。
-![require_test](media/15503705410278/require_test.png)
+![require_test](https://github.com/zyzgc1997/zyzgc1997.github.io/tree/master/assets/img/require_test.png)
 
 > include()
 
 在包含的过程中如果遇到错误，即使文件不存在等，也不会直接退出，会继续执行后续语句。
-![include_test](media/15503705410278/include_test.png)
+![include_test](https://github.com/zyzgc1997/zyzgc1997.github.io/blob/master/assets/img/include_test.png)
 
 ### require_once()&include_once()
 `require_once()` 和 `include_once()` 功能与require() 和 include() 类似。但如果一个文件已经被包含过了，则 require_once() 和 include_once() 则不会再包含它，以避免函数重定义或变量重赋值等问题。
@@ -39,5 +39,5 @@ include_test.php?file=phpinfo.txt
 ?>
 ```
 可成功解析phpinfo()
-![phpinfo_test](media/15503705410278/phpinfo_test.png)
+![phpinfo_test](https://github.com/zyzgc1997/zyzgc1997.github.io/blob/master/assets/img/phpinfo_test.png)
 
